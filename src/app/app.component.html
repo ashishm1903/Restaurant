@@ -1,0 +1,48 @@
+<div >
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="Footer">Restaurant</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <a class="nav-item nav-link"  routerLink="Add">Add Restaurant</a>
+        <a class="nav-item nav-link" routerLink="List">Restaurant List</a>
+        <!--<a class="nav-item nav-link" routerLink="Login">Login User</a>-->
+        <a class="nav-item nav-link" routerLink="Register">Register User</a>
+        <a class="nav-item nav-link" routerLink="UserList">User List</a>
+        <!--<a class="nav-item nav-link" routerLink="Update">Update Restaurant</a>-->
+      </ul>
+    </div>
+    <i  routerLink="" style='font-size:24px; color: cornsilk;' title="Logout" (click)="logoutt()" class='fas'>&#xf2f5;</i>
+  </div>
+ 
+</nav>
+</div>
+<div class="container">
+
+  <router-outlet></router-outlet>
+  <footer>
+    Copyright@2021 All Right Resrve...
+  </footer>
+</div>
+<!--<div class="col-md-12">
+  <div class="row">
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-3">
+      
+    </div>
+    <div class="col-md-3">
+      
+    </div>
+    <div class="col-md-3">
+     
+     <button routerLink="" type="button" (click)="logoutt()" class="btn btn-outline-secondary bt-sm" style="color: white;">Logout</button>
+     &nbsp; <i  routerLink="" style='font-size:24px; color: cornsilk;' title="Logout" (click)="logoutt()" class='fas'>&#xf2f5;</i>
+      
+    </div>
+  </div>
+</div>-->

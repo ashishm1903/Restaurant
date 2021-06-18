@@ -1,0 +1,28 @@
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>success...!</strong> User Deleted succesfully......!.
+    <button  (click)="clearAlert()"  type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+<table class=" table table-warning table-striped table-hover">
+    <thead>
+            <tr>
+                <th scope="col">#</th>
+              <th scope="col">Id</th>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Password</th>
+              <th scope="col">Delete</th>
+             <th scope="col">View</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of Userlist">
+              <th>1</th>
+              <th>{{item.id}}</th>
+              <th>{{item.name}}</th>
+              <th>{{item.email}}</th>
+              <th>{{item.password}}</th>
+              <th><i (click)="dltuser(item.id)" class="fa fa-trash" style="font-size:20px;color:red;"></i></th>
+             <th><a routerLink="/Update/{{item.id}}"><i class="fa fa-edit" style="font-size:20px;color:blue"></i></a></th>
+            </tr>
+          </tbody>
+      </table>

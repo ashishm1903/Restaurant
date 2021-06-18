@@ -1,0 +1,113 @@
+{
+  "Restaurant": [
+    {
+      "id": 1,
+      "name": "KFC",
+      "Address": "Pune",
+      "Email": "kfc@gmail.com"
+    },
+    {
+      "name": "MC-D",
+      "Address": "Mumbai",
+      "Email": "mcd@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Taj",
+      "Address": "Mumbai east",
+      "Email": "taj@gmail.com",
+      "id": 12
+    },
+    {
+      "name": "Sayaji",
+      "Address": "Pune",
+      "Email": "sayaji@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "Morya",
+      "Address": "Pune",
+      "Email": "morya@gmail.com",
+      "id": 14
+    }
+  ],
+  "user": [
+    {
+      "name": "Ashish",
+      "email": "ashish@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "Ashish More",
+      "email": "ashish@gmail.com",
+      "password": "Ashish@1234",
+      "id": 2
+    },
+    {
+      "name": "Abhishek",
+      "email": "A@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "customerinfo": [
+    {
+      "custname": "Ashish m",
+      "custAddress": "pune",
+      "custphone": 34567865,
+      "custadharno": 654645645,
+      "custemail": "ashish@gmail.com",
+      "custpan": 324224554352454,
+      "id": 1
+    },
+    {
+      "custname": "Abhishek S",
+      "custAddress": "pune",
+      "custphone": 34567865,
+      "custadharno": 654645645,
+      "custemail": "abhishek@gmail.com",
+      "custpan": 324224554352454,
+      "id": 2
+    },
+    {
+      "custname": "AK",
+      "custAddress": "Pune",
+      "custphone": 8678678678,
+      "custadharno": 34345654767,
+      "custemail": "a@gmail.com",
+      "custpan": 6767574546,
+      "id": 3
+    }
+  ],
+  "productinfo": [
+    {
+      "prodname": "Note 10 II",
+      "prodcompany": "Samsung ",
+      "prodwarranty": "5 year",
+      "prodbrand": "Samsung",
+      "prodprice": 100000,
+      "id": 2
+    }
+  ],
+  "maintainstock": [
+    {
+      "prodname": "LED 40 Inch",
+      "vendorname": "Ashish M",
+      "pendingamount": "50000",
+      "quentity": 50,
+      "totalpayment": 100000,
+      "paidamount": 50000,
+      "id": 1
+    },
+    {
+      "prodname": "Nord 2",
+      "vendorname": "Ashish More",
+      "pendingamount": 23000,
+      "quentity": 60,
+      "totalpayment": 10000,
+      "paidamount": 45678,
+      "id": 2
+    }
+  ]
+}
